@@ -4,6 +4,8 @@ module.exports = {
   entry: {
     index: './src/index.js',
     about: './src/about.js',
+    menu: './src/menu.js',
+    contact:'./contact.js'
   },
   devtool: 'inline-source-map',
   mode: 'none',

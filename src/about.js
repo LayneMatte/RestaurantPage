@@ -1,6 +1,7 @@
 import './style.css';
 import { pageWipe, tabListener } from "./index.js";
 import restaurant from '../src/restaurant-rachel-claire-4992835.jpg';
+import github from '../src/github-mark.png'
 
 
 
@@ -50,7 +51,7 @@ createImg('.container','rest-img',`${restaurant}`)
 createDiv('.container','about-text','This is a restaurant. A place to eat food. Anyone is welcome! There are tables and chairs to sit down. People called waiters will wait on you. They can bring you drinks and food. They will ask you want to eat and you tell them! Restaurant has been in business since 1438. Generations of people have owned restaurant. Food style food has been a staple of restaurant since its conception. Restaurant will continue to serve its customers as long as humans eat food.')
 // Creating Footer Content
 createA('.footer','github','https://github.com/LayneMatte','Github @ LayneMatte')
-createImg('.footer','logo','../src/github-mark.png')
+createImg('.footer','logo',`${github}`)
 tabListener()
 }
 

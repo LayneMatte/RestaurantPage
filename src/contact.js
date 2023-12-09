@@ -1,5 +1,9 @@
 import { createDiv, createA, createImg } from "./about.js";
 import { pageWipe, tabListener } from "./index.js"
+import github from '../src/github-mark.png';
+import facebook from '../src/facebook.png';
+import twitter from '../src/twitter.png';
+import instagram from '../src/instagram.png';
 
 export function contactPageCreation(){
     pageWipe()
@@ -23,11 +27,11 @@ createDiv('.main','resthours','Restaurant Hours')
 createDiv('.main','followUs')
     createDiv('.followUs','medialinks','Follow us on all major social media platforms!')
     createDiv('.followUs','imgcontainer')
-        createImg('.imgcontainer','medialogo','../src/facebook.png')
-        createImg('.imgcontainer','medialogo','../src/twitter.png')
-        createImg('.imgcontainer','medialogo','../src/instagram.png')
+        createImg('.imgcontainer','medialogo',`${facebook}`)
+        createImg('.imgcontainer','medialogo',`${twitter}`)
+        createImg('.imgcontainer','medialogo',`${instagram}`)
 // Creating Footer Content
 createA('.footer','github','https://github.com/LayneMatte','Github @ LayneMatte')
-createImg('.footer','logo','../src/github-mark.png')
+createImg('.footer','logo',`${github}`)
 tabListener()
 }
