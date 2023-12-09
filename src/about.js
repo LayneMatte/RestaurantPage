@@ -1,5 +1,6 @@
 import './style.css';
-import { pageWipe, tabListener } from "./index.js"
+import { pageWipe, tabListener } from "./index.js";
+import restaurant from '../src/restaurant-rachel-claire-4992835.jpg';
 
 
 
@@ -44,7 +45,7 @@ createDiv('.header','tab','Contact');
 // Creating Main Content
 createDiv('.main','headline','Restaurant - Est. 1438')
 createDiv('.main','container')
-createImg('.container','rest-img','../src/restaurant-rachel-claire-4992835.jpg')
+createImg('.container','rest-img',`${restaurant}`)
 // createDiv('.container','imgText','photo by rachel claire')
 createDiv('.container','about-text','This is a restaurant. A place to eat food. Anyone is welcome! There are tables and chairs to sit down. People called waiters will wait on you. They can bring you drinks and food. They will ask you want to eat and you tell them! Restaurant has been in business since 1438. Generations of people have owned restaurant. Food style food has been a staple of restaurant since its conception. Restaurant will continue to serve its customers as long as humans eat food.')
 // Creating Footer Content

@@ -1,6 +1,7 @@
 import { aboutPageCreation } from "./about.js";
 import { menuPageCreation } from "./menu.js";
-import {contactPageCreation} from "./contact.js"
+import {contactPageCreation} from "./contact.js";
+
 aboutPageCreation()
 
 export function pageWipe(){
