@@ -46,6 +46,6 @@ const foodFactory = (title,body,number,imgSrc) => {
 menuGeneration()
 // Creating Footer Content
 createA('.footer','github','https://github.com/LayneMatte','Github @ LayneMatte')
-createImg('.footer','logo','../src/github-mark.png')
+createImg('.footer','logo','github-mark.png')
 tabListener()
 }
